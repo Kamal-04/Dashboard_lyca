@@ -103,7 +103,7 @@ if page == "🏠 Dashboard Overview":
     st.markdown("### Welcome to the Hospital Analytics Portal")
     
     # Key Metrics
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2, col3 = st.columns(3)
     
     with col1:
         total_doctors = len(clinicians_df)
@@ -115,11 +115,13 @@ if page == "🏠 Dashboard Overview":
     
     with col3:
         mapped_doctors = len(mapped_df)
-        st.metric("✅ Active Service Providers", mapped_doctors)
-    
-    with col4:
+        # st.metric("✅ Active Service Providers", mapped_doctors)
         unique_specializations = clinicians_df['Specialization'].nunique()
         st.metric("🎯 Specializations", unique_specializations)
+    
+    # with col4:
+    #     unique_specializations = clinicians_df['Specialization'].nunique()
+    #     st.metric("🎯 Specializations", unique_specializations)
     
     st.markdown("---")
     
@@ -387,32 +389,34 @@ elif page == "👨‍⚕️ Clinicians":
     if len(card_filtered_df) > 0:
         num_cols = 3
         clinician_rows = [card_filtered_df.iloc[i:i+num_cols] for i in range(0, min(len(card_filtered_df), 12), num_cols)]
-    
-    for row_data in clinician_rows:
-        cols = st.columns(num_cols)
-        for idx, (_, clinician) in enumerate(row_data.iterrows()):
-            with cols[idx]:
-                services = clinician['Services Offered']
-                has_services = services not in ['No Match', '-', '']
-                
-                # Create card
-                card_color = "#e8f5e9" if has_services else "#fafafa"
-                st.markdown(f"""
-                <div style="
-                    background-color: {card_color};
-                    padding: 20px;
-                    border-radius: 10px;
-                    border-left: 5px solid {'#2ecc71' if has_services else '#95a5a6'};
-                    margin-bottom: 15px;
-                    min-height: 180px;
-                ">
-                    <h4 style="margin: 0; color: #2c3e50;">�‍⚕️ {clinician['Name'][:30]}{'...' if len(clinician['Name']) > 30 else ''}</h4>
-                    <p style="color: #7f8c8d; margin: 5px 0;"><strong>Specialization:</strong></p>
-                    <p style="color: #34495e; margin: 0; font-size: 14px;">{clinician['Specialization'][:40]}{'...' if len(str(clinician['Specialization'])) > 40 else ''}</p>
-                    <p style="color: #7f8c8d; margin-top: 10px; margin-bottom: 5px;"><strong>Services:</strong></p>
-                    <p style="color: #27ae60; margin: 0; font-size: 13px;">{services[:50] if has_services else 'No services listed'}{'...' if has_services and len(str(services)) > 50 else ''}</p>
-                </div>
-                    """, unsafe_allow_html=True)
+        
+        for row_data in clinician_rows:
+            cols = st.columns(num_cols)
+            for idx, (_, clinician) in enumerate(row_data.iterrows()):
+                with cols[idx]:
+                    services = clinician['Services Offered']
+                    has_services = services not in ['No Match', '-', '']
+                    
+                    # Create card
+                    card_color = "#e8f5e9" if has_services else "#fafafa"
+                    st.markdown(f"""
+                    <div style="
+                        background-color: {card_color};
+                        padding: 20px;
+                        border-radius: 10px;
+                        border-left: 5px solid {'#2ecc71' if has_services else '#95a5a6'};
+                        margin-bottom: 15px;
+                        min-height: 180px;
+                    ">
+                        <h4 style="margin: 0; color: #2c3e50;">⚕️{clinician['Name'][:30]}{'...' if len(clinician['Name']) > 30 else ''}</h4>
+                                            </h4>
+                        <p style="color: #7f8c8d; margin: 5px 0;"><strong>Specialization:</strong></p>
+                                            </p>
+                        <p style="color: #34495e; margin: 0; font-size: 14px;">{clinician['Specialization']} </p>
+                        <p style="color: #7f8c8d; margin-top: 10px; margin-bottom: 5px;"><strong>Services:</strong></p>
+                        <p style="color: #27ae60; margin: 0; font-size: 13px;">{services if has_services else 'No services listed'}</p>
+                    </div>
+                        """, unsafe_allow_html=True)
         
         # Show more button for remaining clinicians
         if len(card_filtered_df) > 12:
