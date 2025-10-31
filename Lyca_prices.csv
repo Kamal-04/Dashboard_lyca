@@ -1,0 +1,188 @@
+﻿MRI,Canary Wharf,Orpington
+MRI 1 Part,£545,£425
+MRI 2 Parts,£842,£580
+MRI 3 Parts,"£1,029",£770
+MRI 4 Parts,"£1,271",£990
+MRI 5 Parts,"£1,513","£1,210"
+MRI 6 Parts,"£1,755","£1,430"
+MRI Contrast,£121,£110
+MRI Prostate,"£1,084",£875
+MRI Arthogram,"£1,029",£825
+MR Angiography (1 part),£968,£770
+MRI Liver,£908,£715
+MRI Renal,£908,£715
+MRI Gynae / Pelvic,"£1,084",£875
+MRI Enteroclysis (Small Bowel),"£1,089",£825
+MRI – Full Body,"£2,178","£1,870"
+,,
+,,
+CT,Canary Wharf,Orpington
+CT 1 Part,£666,£495
+CT 2 Parts,£908,£715
+CT 3 Parts,"£1,150",£935
+CT 4 Parts,"£1,392","£1,155"
+CT Contrast,£121,£110
+CT Angiogram,"£1,089",£880
+CTCA (including calcium scoring),"£1,392","£1,155"
+CT Arthrogram,£968,£770
+CT Colonography,"£1,067",£860
+CT Cervical Epidural,"£1,694","£1,210"
+CT Facet Injection into 2 Joints,"£2,178","£1,870"
+CT Calcium Scoring,£666,£495
+CT Urogram,£908,£715
+,,
+,,
+Ultrasound,Canary Wharf,Orpington
+Ultrasound Abdomen,£374,£305
+Ultrasound Pelvis,£374,£259
+Ultrasound Abdomen Including Pelvis,£545,£470
+Ultrasound Aorta,£374,£305
+Ultrasound MSK 1 PART,£374,£305
+Ultrasound MSK 2 PARTS,£545,£385
+Ultrasound Testes,£374,£305
+Ultrasound Thyroid,£374,£302
+Ultrasound Neck,£374,£305
+Ultrasound Transvaginal,£380,£259
+Ultrasound Soft Tissue / Tendon,£374,£305
+Ultrasound Chest,£374,£305
+Ultrasound Doppler Abdomen,£545,£415
+Ultrasound Doppler Penile,£545,£415
+Ultrasound Doppler Aorta (Including Duplex),£545,£415
+Ultrasound Vascular & dopplcr,£545,£415
+Ultrasound 2 Parts Vascular & Doppler,£666,£495
+Ultrasound Flow Rate,£61,£55
+Ultrasound DVT One LEG,£424,£330
+Ultrasound DVT Two LEG,£605,£495
+Ultrasound Guided Biopsy,"£1,700",£715
+Ultrasound Guided FNA,£726,£605
+Ultrasound Guided Injection,£787,£450
+Blood Injection (PRP),£512,–
+Ultrasound Transrectal,£495,£410
+Early Pregnancy Scan,£182,–
+,,
+,,
+,,
+X-Ray,Canary Wharf,Orpington
+X-Ray Chest,£154,£90
+XR Lumbar Spine,£154,£120
+XR Pelvis,£154,£120
+XR SACRUM SPINE,£154,£120
+XRAY THORACIC SPINE,£154,£120
+XR HIP,£154,£120
+XR ABDOMEN,£154,£120
+XR SKULL – 2 OR MORE VIEWS,£154,£120
+XR SHOULDER,£154,£120
+XR HUMERUS,£154,£120
+XR ELBOW,£154,£120
+XR FOREARM,£154,£120
+XRAY WRIST 2 VIEWS,£154,£120
+XRAY HAND 2 VIEWS,£154,£120
+XRAY FINGERS 2 VIEWS,£154,£120
+XR KNEE,£154,£120
+XR TIBIA AND FIBULA,£154,£120
+XRAY ANKLE 2 VIEWS OR MORE,£154,£120
+XRAY Foot,£154,£120
+XRAY TOE 2 VIEWS,£154,£120
+XR COCCYX SPINE,£154,£120
+XR CLAVICLE,£154,£120
+XR FEMUR,£154,£120
+XR FACIAL BONES,£154,£120
+,,
+,,
+Cardiology,Canary Wharf,Orpington
+ECG,£187,£139
+Echocardiogram – Cardiologist,£545,£574
+Echocardiogram – Physiologist,–,£382
+24 Hr ECG/Holter Monitor Reported,£391,£332
+48 Hr ECG/Holter Monitor Reported,–,£587
+72 hr ECG/Holter Monitor,£567,£576
+24 HR B/P + REPORT,£391,£281
+Exercise Stress ECG,£578,–
+Stress Echocardiogram + Report,"£1,150",–
+Ultrasound Echocardiogram – Physiologist,£545,£382
+CTCA,–,"£1,155"
+7 Day ECG or 5 day ECG,–,£752
+Sleep Study,–,£350
+,,
+,,
+Physiotherapy,Canary Wharf,Orpington
+Initial Musculoskeletal Assessment,£72,£70
+Follow up – Musculoskeletal,£61,£52
+Initial Hand Therapy,–,£87
+Follow up Hand Therapy,–,£52
+Physio 4 Pack,£198,–
+Physio 6 Pack,£275,–
+Shockwave (1 session),£110,£100
+Shockwave (3 sessions),£303,£275
+,,
+,,
+Audiology,Canary Wharf,Orpington
+Hearing Consultation,£150,£150
+Puretone Audiogram,£100,£100
+Loudness Discomfort Levels,£90,£90
+Tympanometry,£65,£65
+Acoustic Reflexes,£150,£150
+Speech Audiometry,£88,£88
+Auditory Training,£150,£150
+Auditory Implant Evaluation,£150,£150
+Medicolegal Evaluation,£175,£175
+Medicalegal Audiogram,£100,£100
+Hearing Aid Consultation,£150,£150
+2nd Opinion Consultation,£100,£100
+Universal Hearing Aid Package (1 Ear),"£1,800","£1,800"
+Universal Hearing Aid Package (2 Ears),"£3,600","£3,600"
+Advanced Hearing Aid Package (1 Ear),"£2,400","£2,400"
+Advanced Hearing Aid Package (2 Ears),"£4,800","£4,800"
+Premium Hearing Aid Package (1 Ear),"£3,000","£3,000"
+Premium Hearing Aid Package (2 Ears),"£6,000","£6,000"
+Multi-disciplinary Balance Clinic,"£1,200","£1,200"
+VNG,£265,£265
+Caloric Testing,£300,£300
+VHIT,£155,£155
+VEMP,£275,£275
+Dix Hallpike (BPPV Assessment),£105,£105
+Vestibular Rehabilitation,£125,£125
+Falls Risk Assessment,£500,£500
+Concussion Assessment,£500,£500
+Tinnitus Consultation,£300,£300
+Tinnitus Matching Test,£75,£75
+Tinnitus Retraining Therapy,£150,£150
+Tinnitus CBT,£150,£150
+Ear Health Check,£50,£50
+Wax Microsuction,£85,£85
+Ear Swab,£55,£55
+Ear Impressions (one or both ears),£30,£30
+,,
+,,
+One Stop Breast Clinic,Canary Wharf,Orpington
+MRI Breast,£685,£600
+MRI Breast with Contrast*,£795,£710
+Unilateral Breast and Axilla Ultrasound,£380,£350
+Bilateral Breast and Axilla Ultrasound,£390,£390
+Unilateral guided Fine Needle Aspiration (FNA),£650,£650
+Bilateral guided Fine Needle Aspiration (FNA),£950,£950
+Ultrasound Guided Core Biopsy,"£1,700","£1,500"
+Histopathology (small),£252,£252
+Histopathology (Complex),£634,£634
+Ultrasound Magseed Insertion,"£1,450","£1,300"
+Bilateral Mammogram,£270,£190
+Unilateral Mammogram,£250,£170
+Bilateral Tomosynthesis,£290,£275
+Unilateral Tomosynthesis,£260,£240
+Further View Mammogram (Mag/paddle),£125,£125
+Unilateral Stereotactic Biopsy,"£1,700","£1,500"
+Bilateral stereotactic core biopsy breasts,"£1,700","£1,500"
+Bilateral Vacuum – Assisted Biopsy,"£1,550","£1,550"
+Unilateral Vacuum – Assisted Biopsy,"£1,550","£1,550"
+Aspiration Fine Needle Cytology (S4760),£650,£650
+Ultrasound guided drainage of fluid collection,"£1,450","£1,300"
+Insertion of guidewire and/or marker into breast lesion under imaging control,"£1,400","£1,350"
+Drainage of breast abscess (including haematoma and seroma),"£1,300","£1,100"
+,,
+Minor Operations,Canary Wharf,Orpington
+Nerve Root Block,–,"From £1,200"
+Medial branch block injection,–,"From £1,200"
+Facet joint injection,–,"From £1,200"
+Epidural Injection,–,"From £1,500"
+Arthrosamid Injections,–,"From £3,604"
+Carpal Tunnel Release,–,"From £1,200"
