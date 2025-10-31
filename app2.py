@@ -1042,6 +1042,5 @@ st.markdown("---")
 st.markdown("""
     <div style='text-align: center; color: #7f8c8d; padding: 20px;'>
         <p>🏥 Hospital Management Dashboard | Built with Streamlit</p>
-        <p>Data last updated: 2024</p>
     </div>
     """, unsafe_allow_html=True)
